@@ -15,5 +15,5 @@ spec:
   forceUpgrade: true
   values:
     image:
-      repository: ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com/app-mesh-flux-flagger-api
+      repository: .dkr.ecr..amazonaws.com/app-mesh-flux-flagger-api
       tag: 1.0.0

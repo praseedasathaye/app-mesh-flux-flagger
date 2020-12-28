@@ -15,5 +15,5 @@ spec:
   forceUpgrade: true
   values:
     image:
-      repository: 840364872350.dkr.ecr.REGION.amazonaws.com/aws-appmesh-envoy
+      repository: 840364872350.dkr.ecr..amazonaws.com/aws-appmesh-envoy
       tag: v1.12.5.0-prod

@@ -1,6 +1,6 @@
 git:
   url: git@github.com:praseedasathaye/app-mesh-flux-flagger.git
-  branch: master
+  branch: gitops
   pollInterval: 1m
   path: flux
 sync:

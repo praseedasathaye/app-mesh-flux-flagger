@@ -1,0 +1,13 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: appmesh-prometheus
+  namespace: appmesh-system
+  annotations:
+    flux.weave.works/automated: "false"
+spec:
+  releaseName: appmesh-prometheus
+  chart:
+    repository: https://aws.github.io/eks-charts
+    name: appmesh-prometheus
+    version: 1.0.0
